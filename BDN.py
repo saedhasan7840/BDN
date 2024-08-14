@@ -3,7 +3,7 @@ import os
 import certifi
 from time import sleep
 import requests,json,time,re,random,sys,uuid,string,subprocess,zlib,base64,hashlib
-import os,bs4,json,sys,time,random,re,subprocess,platform,struct,string,uuid,requests
+import bs4 import BeautifulSoup
 import datetime
 try:
     import pycurl
