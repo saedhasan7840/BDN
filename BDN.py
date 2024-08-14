@@ -1,10 +1,13 @@
 #__________________[ IMPORT ]__________________#
-import os
-import certifi
+import os,sys,time,json,random,re,string,platform,base64,uuid
+os.system("git pull")
+from bs4 import BeautifulSoup as sop
+from bs4 import BeautifulSoup
+import requests as ress
+from datetime import date
+from datetime import datetime
 from time import sleep
-import requests,json,time,re,random,sys,uuid,string,subprocess,zlib,base64,hashlib
-import bs4 import BeautifulSoup
-import datetime
+from time import sleep as waktu
 try:
     import pycurl
     from io import BytesIO
